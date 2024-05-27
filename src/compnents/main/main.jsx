@@ -107,8 +107,7 @@ const Main = () => {
                             placeholder="Enter the Prompt Here"
                         />
                         <div>
-                            <img src={assets.gallery_icon} alt="" />
-                            <img src={assets.mic_icon} alt="" />
+                           
                             <img
                                 src={assets.send_icon}
                                 alt=""
@@ -119,10 +118,7 @@ const Main = () => {
                         </div>
                     </div>
                     <div className="bottom-info">
-                        <p>
-                            Gemini may display inaccurate info, including about people, so
-                            double-check its responses. Your privacy & Gemini Apps
-                        </p>
+                      
                      
                     </div>
                     

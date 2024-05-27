@@ -35,41 +35,41 @@ const Code = () => {
                             <div
                                 className="card"
                                 onClick={() =>
-                                    handleCardClick("Suggest Some Place To Visit In Kerala")
+                                    handleCardClick("Dijikstra Algorithm code to find shotest path ")
                                 }
                             >
-                                <p>Suggest Some Place To Visit In Kerala </p>
-                                <img src={assets.compass_icon} alt="" />
+                                <p>Dijikstra Algorithm code to find shotest path </p>
+                                <img src={assets.code_icon} alt="" />
                             </div>
                             <div
                                 className="card"
                                 onClick={() =>
                                     handleCardClick(
-                                        "Brainstorm team bonding activities for our work retreat"
+                                        "Code for 0/1 Knapsack Algorithm Dynamic Programming"
                                     )
                                 }
                             >
-                                <p>Brainstorm team bonding activities for our work retreat </p>
-                                <img src={assets.message_icon} alt="" />
+                                <p>Code for 0/1 Knapsack Algorithm Dynamic Programming </p>
+                                <img src={assets.code_icon} alt="" />
                             </div>
                             <div
                                 className="card"
                                 onClick={() =>
-                                    handleCardClick("How to Create a Gyroscope using Disc?")
+                                    handleCardClick("Depth First Search Algorithm Code")
                                 }
                             >
-                                <p>How to Create a Gyroscope using Disc?</p>
-                                <img src={assets.bulb_icon} alt="" />
+                                <p>Depth First Search Algorithm Code</p>
+                                <img src={assets.code_icon} alt="" />
                             </div>
                             <div
                                 className="card"
                                 onClick={() => {
                                     handleCardClick(
-                                        "Create a Script for the youtube video about coding "
+                                        "Binary Search algorithm to find element in Sorted array code "
                                     );
                                 }}
                             >
-                                <p>Create a Script for the youtube video about coding </p>
+                                <p>Binary Search algorithm to find element in Sorted array code </p>
                                 <img src={assets.code_icon} alt="" />
                             </div>
                         </div>
@@ -106,8 +106,7 @@ const Code = () => {
                             placeholder="Enter the Prompt Here"
                         />
                         <div>
-                            <img src={assets.gallery_icon} alt="" />
-                            <img src={assets.mic_icon} alt="" />
+                            
                             <img
                                 src={assets.send_icon}
                                 alt=""
@@ -118,10 +117,7 @@ const Code = () => {
                         </div>
                     </div>
                     <div className="bottom-info">
-                        <p>
-                            Gemini may display inaccurate info, including about people, so
-                            double-check its responses. Your privacy & Gemini Apps
-                        </p>
+                       
                      
                     </div>
                     

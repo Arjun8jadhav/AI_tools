@@ -1,0 +1,88 @@
+.land{
+     height: 100vh;
+     padding: 5px;
+     margin: 0;
+     justify-content: center;
+     background: rgb(2,0,36);
+     background: linear-gradient(90deg, rgba(2,0,36,1) 29%, rgba(38,38,79,1) 65%, rgba(87,103,129,1) 100%, rgba(151,188,195,1) 100%);
+}
+.titleland {
+    color: rgb(13, 13, 14);
+    align-items: center;
+    justify-content: center;
+    font-family:  Arial, sans-serif;
+
+    
+    
+}
+.land h1{
+    color: aliceblue;
+    text-align: center;
+    align-items: center;
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
+.navlan{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.navlan h2{
+    color: rgb(216, 193, 131);
+    font-size: 30px;
+    
+    
+}
+.fontify{
+    margin-top: 5%;
+}
+
+span{
+    color: rgb(207, 180, 144);
+}
+.butlan{
+    width: 100px;
+    color: rgb(247, 247, 247);
+    background-color: rgb(214, 17, 17);
+    
+}
+.butlan:hover{
+    background-color: rgb(255, 77, 77);
+  
+}
+.desclan{
+    color: aliceblue;
+    font-weight: 100;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 1%;
+    margin-bottom: 40px;
+    
+}
+.desclan h3{
+    font-weight:300;
+
+}
+.finbtn{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border: transparent;
+    
+}
+.finbtn button{
+    width: 240px;
+    height: 60px;
+    font-size: 20px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    color: rgb(141, 144, 148);
+    align-items: center;
+    justify-content: center;
+    margin-left: 45%;
+    margin-right: 40%;
+    
+}

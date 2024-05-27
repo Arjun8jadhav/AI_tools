@@ -10,7 +10,7 @@
     justify-content: space-between;
     font-size: 22px;
     padding: 20px;
-    color: #585858;
+    color: #c09999;
 }
 .main .nav img{
     width: 40px;
@@ -24,7 +24,7 @@
 .main-container .greet{
     margin: 50px 0px;
     font-size: 56px;
-    color:#c4c7c5;
+    color:#a2aca5;
     font-weight: 500px;
 }
 .main .greet span{
@@ -157,4 +157,7 @@ animation: loader 4s infinite linear;
     font-size: 17px;
     font-weight: 300px;
     line-height: 1.8;
+}
+#ode_gen{
+    background-color: #585858;
 }

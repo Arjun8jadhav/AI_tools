@@ -4,18 +4,18 @@ import Code from "./compnents/code/main"
 import AIImageGenerator from "../image/image";
 import { useContext } from "react";
 import { Context } from "./context/context";
+import { UserButton } from "@clerk/clerk-react";
+
 function App() {
   const {
     navpr,
-		setNavpr,
 		navco,
-		setNavco,
 		navimg,
-		setNavimg
   } = useContext(Context);
 
   return (
     <>
+      
        {navpr?<Main/>:null}
        {navimg?
       <AIImageGenerator/>:
