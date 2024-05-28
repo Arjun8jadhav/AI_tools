@@ -161,3 +161,14 @@ animation: loader 4s infinite linear;
 #ode_gen{
     background-color: #585858;
 }
+@media screen and (max-width: 830px){
+   .main .card{
+     height: 150px;
+   }
+   .main-container .greet{
+    margin: 50px 0px;
+    font-size: 36px;
+    color:#a2aca5;
+    font-weight: 500px;
+}
+}

@@ -1,9 +1,12 @@
 .land{
-     height: 100vh;
+     
      padding: 5px;
      margin: 0;
      justify-content: center;
-     background: rgb(2,0,36);
+}
+#hello{
+     height: 100%;
+    background: rgb(2,0,36);
      background: linear-gradient(90deg, rgba(2,0,36,1) 29%, rgba(38,38,79,1) 65%, rgba(87,103,129,1) 100%, rgba(151,188,195,1) 100%);
 }
 .titleland {
@@ -44,11 +47,17 @@ span{
 .butlan{
     width: 100px;
     color: rgb(247, 247, 247);
-    background-color: rgb(214, 17, 17);
+    background-color: rgb(207, 35, 35);
+    height: 40px;
     
 }
+.topbtn{
+    display: flex;
+    justify-content: space-around;
+    gap:10px
+}
 .butlan:hover{
-    background-color: rgb(255, 77, 77);
+    background-color: rgb(170, 68, 68);
   
 }
 .desclan{
@@ -75,8 +84,9 @@ span{
     width: 240px;
     height: 60px;
     font-size: 20px;
+    
 }
-footer{
+.footer{
     position: fixed;
     bottom: 0;
     color: rgb(141, 144, 148);
@@ -86,3 +96,29 @@ footer{
     margin-right: 40%;
     
 }
+@media screen and (max-width: 830px){
+    .finbtn button{
+        width: 150px;
+        height: 60px;
+        font-size: 20px;
+        
+    }
+   
+    .footer{
+        margin-left: 30%;
+    }
+    
+
+}
+.testi{
+    width: 106%; 
+    height: 660px;
+    margin-top: 180px;
+    scroll-behavior:smooth;
+    border-radius: 3%;
+    border: 5px solid transparent;
+    box-shadow: inset 0px 0px 40px 40px #1a1918;
+    overflow: hidden;
+    color: aliceblue;
+}
+

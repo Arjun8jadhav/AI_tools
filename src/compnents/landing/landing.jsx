@@ -5,10 +5,18 @@ import { Link } from 'react-router-dom'
 
 export const Landing = () => {
     return (
+        <section id='hello'>
         <div className='land'>
             <diV className="navlan">
                 <h2>PAAM</h2>
+                <div className='topbtn'>
+                <a href="https://www.grazias.site/r/aitools">
+                    <button className='butlan'>Add Review</button>
+                </a>
                 <SignInButton className="butlan" />
+                
+                
+                </div>
             </diV>
             <div className='fontify'>
                 <h1>WE ARE <span>OPEN SOURCE</span></h1>
@@ -26,16 +34,23 @@ export const Landing = () => {
                 </div>
             </div>
             <div className='finbtn'>
-                <a href="https://sentry.io/answers/">
+                <a href="https://github.com/Arjun8jadhav/AI_tools">
                     <button>Learn more</button>
                 </a>
+                <a>
                 <SignInButton>Get started</SignInButton>
+                </a>
             </div>
-            <footer>
-                <p>@Arjun_Jadhav_2024</p>
-            </footer>
+            <div className='parent'>
+            <iframe className='testi' src="https://www.grazias.site/wall/aitools" >   
+            <button className='testir'>Hello</button>
+            </iframe>
+            </div>
+
+            
 
         </div>
+        </section>
         
     )
 }
