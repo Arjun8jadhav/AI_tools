@@ -29,7 +29,7 @@ const Code = () => {
                             <p>
                                 <span>Hello , Dev </span>
                             </p>
-                            <p>How Can i Help You Today?</p>
+                            <p>Happy Coding!!</p>
                         </div>
                         <div className="cards">
                             <div
