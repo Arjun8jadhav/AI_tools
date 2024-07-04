@@ -1,11 +1,16 @@
+
 .land{
-     
+     height: 100%;
      padding: 5px;
      margin: 0;
-     justify-content: center;
+     justify-content: space-between;
+     margin-left: 15%;
+     margin-right: 15%;
+     display: flex;
+     flex-direction: column;
 }
 #hello{
-     height: 100%;
+    height: 100vh;
     background: rgb(2,0,36);
      background: linear-gradient(90deg, rgba(2,0,36,1) 29%, rgba(38,38,79,1) 65%, rgba(87,103,129,1) 100%, rgba(151,188,195,1) 100%);
 }
@@ -19,10 +24,11 @@
     
 }
 .land h1{
+    
     color: aliceblue;
     text-align: center;
     align-items: center;
-    font-size: 70px;
+    font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 400;
 }
@@ -33,22 +39,26 @@
 }
 .navlan h2{
     color: rgb(216, 193, 131);
-    font-size: 30px;
+    font-size: 20px;
     
     
 }
 .fontify{
-    margin-top: 5%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 span{
     color: rgb(207, 180, 144);
 }
 .butlan{
-    width: 100px;
+    width: max-content;
+    padding: 7px 14px;
     color: rgb(247, 247, 247);
     background-color: rgb(207, 35, 35);
-    height: 40px;
+    
     
 }
 .topbtn{
@@ -63,50 +73,41 @@ span{
 .desclan{
     color: aliceblue;
     font-weight: 100;
-    margin-left: 20%;
-    margin-right: 20%;
-    margin-top: 1%;
-    margin-bottom: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5px;
+    margin-bottom: 10px;
     
 }
 .desclan h3{
     font-weight:300;
-
-}
-.finbtn{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    border: transparent;
-    
-}
-.finbtn button{
-    width: 240px;
-    height: 60px;
     font-size: 20px;
     
 }
-.footer{
-    position: fixed;
-    bottom: 0;
-    color: rgb(141, 144, 148);
+.finbtn{
+    display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 45%;
-    margin-right: 40%;
-    
+    gap: 10px;
+    padding: 18px 36px;
 }
-@media screen and (max-width: 830px){
-    .finbtn button{
-        width: 150px;
-        height: 60px;
-        font-size: 20px;
+.finbtn button{
+    padding: 12px 24px;
+    align-items: center;
+    width: max-content;
+    background-color: rgb(209, 59, 134);
         
+}
+
+@media screen and (max-width: 830px){
+    .land h1{
+        font-size: 30px;
     }
-   
-    .footer{
-        margin-left: 30%;
+    .land{
+        margin-left: 3%;
+        margin-right: 3%;
     }
+    
     
 
 }

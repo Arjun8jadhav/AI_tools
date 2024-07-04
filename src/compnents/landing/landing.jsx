@@ -10,12 +10,7 @@ export const Landing = () => {
             <diV className="navlan">
                 <h2>PAAM</h2>
                 <div className='topbtn'>
-                <a href="https://www.grazias.site/r/aitools">
-                    <button className='butlan'>Add Review</button>
-                </a>
-                <SignInButton className="butlan" />
-                
-                
+                <SignInButton className="butlan" />  
                 </div>
             </diV>
             <div className='fontify'>
@@ -41,11 +36,7 @@ export const Landing = () => {
                 <SignInButton>Get started</SignInButton>
                 </a>
             </div>
-            <div className='parent'>
-            <iframe className='testi' src="https://www.grazias.site/wall/aitools" >   
-            <button className='testir'>Hello</button>
-            </iframe>
-            </div>
+            
 
             
 
