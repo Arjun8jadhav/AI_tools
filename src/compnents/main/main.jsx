@@ -106,16 +106,16 @@ const Main = () => {
                             type="text"
                             placeholder="Enter the Prompt Here"
                         />
-                        <div>
+                        
                            
-                            <img
+                        <img
                                 src={assets.send_icon}
                                 alt=""
                                 onClick={() => {
                                     onSent();
                                 }}
                             />
-                        </div>
+                        
                     </div>
                     <div className="bottom-info">
                       

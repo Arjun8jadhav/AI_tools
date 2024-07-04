@@ -37,7 +37,7 @@ export const Navbar = () => {
         <a className='navlink' href='#Prompt_gen' onClick={setPrompt}>Promp-Gen</a>
         <a className='navlink' href='#Image-done' onClick={setImg}>AI-image</a>
         <a className='navlink' href='#Code_gen' onClick={setCode}>Code-gen</a>
-        <a className='golden-btn' href='https://www.grazias.site/'>Review-wall</a>
+        
       </div>
       
     </div>

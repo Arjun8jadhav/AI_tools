@@ -17,7 +17,7 @@
     border-radius: 50px;
 }
 .main-container{
-    max-width: 900px;
+    max-width: 600px;
     margin: auto;
     
 }
@@ -66,15 +66,14 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    max-width: 900px;
+    max-width: 9000px;
     padding: 0px 20px;
     margin: auto;
 }
 .search-box{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content: space-evenly;
     background-color: #f0f4f9;
     padding: 10px 20px;
     border-radius: 50px;
@@ -82,8 +81,10 @@
     margin-bottom: 30px;
 }
 .search-box img{
-    width: 24px;
+    width: 2400px;
     cursor: pointer;
+    align-items: center;
+    object-fit: cover;
 }
 .search-box input{
     flex: 1;
@@ -163,13 +164,22 @@ animation: loader 4s infinite linear;
     line-height: 1.8;
 }
 @media screen and (max-width: 830px){
-    .main .card{
-      height: 150px;
+    
+    .card{
+        display: none;
+        
     }
     .main-container .greet{
      margin: 50px 0px;
      font-size: 36px;
      color:#a2aca5;
      font-weight: 500px;
- }
+     
+
+     }
+     .greet p{
+        align-items: center;
+        text-align: center;
+        font-size: 25px;
+     }
  }
